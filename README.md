@@ -4,6 +4,8 @@ A professional 5-day weather forecast website featuring a dark glassmorphism des
 
 > **Note:** This entire project (HTML, CSS, JavaScript, Tests, and Documentation) was created 100% using **GitHub Copilot**.
 
+![WeatherView Screenshot](tests/screenshots/seattle-weather.png)
+
 ## Features
 
 - **Search by City**: Instantly find weather for any location worldwide.
