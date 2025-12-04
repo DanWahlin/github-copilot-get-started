@@ -17,6 +17,7 @@ const mainContent = document.getElementById('main-content');
 const welcomeEl = document.getElementById('welcome');
 
 const locationName = document.getElementById('location-name');
+const locationCountry = document.getElementById('location-country');
 const currentDate = document.getElementById('current-date');
 const currentIcon = document.getElementById('current-icon');
 const currentTempValue = document.getElementById('current-temp-value');
@@ -189,7 +190,9 @@ function renderCurrentWeather(data, location) {
     const cityName = location.name;
     const region = location.admin1 || '';
     const country = location.country || '';
-    locationName.textContent = [cityName, region, country].filter(Boolean).join(', ');
+    
+    locationName.textContent = [cityName, region].filter(Boolean).join(', ');
+    locationCountry.textContent = country;
     currentDate.textContent = formatDate(today.time[0]);
     
     // Current conditions
