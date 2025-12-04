@@ -1,0 +1,19 @@
+{
+  "name": "github-copilot-get-started",
+  "version": "1.0.0",
+  "description": "5-Day Weather Forecast Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
